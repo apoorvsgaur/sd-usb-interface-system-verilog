@@ -1,0 +1,117 @@
+
+
+
+
+
+Tracing Clock clk
+
+****** Clock Tree (clk) Structure
+Nr. Subtrees                   : 1
+Nr. Sinks                      : 73
+Nr.          Rising  Sync Pins : 73
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFSR (CLK)                             73
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk) Cell: (EMPTY) Net: (clk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 73
+          Nr. of     Rising  Sync Pins  : 73
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock clk
+*DEPTH 0: clk
+ (Sync)SDController/state_reg[3]/CLK
+ (Sync)SDController/state_reg[0]/CLK
+ (Sync)SDController/state_reg[2]/CLK
+ (Sync)SDController/state_reg[4]/CLK
+ (Sync)SDController/state_reg[1]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[0]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[1]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[2]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[3]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[4]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[5]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[6]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[7]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[8]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[9]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[10]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[11]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[12]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[13]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[14]/CLK
+ (Sync)SDController/LoadFIFO/count_out_reg[15]/CLK
+ (Sync)SDController/LoadFIFO/rollover_flag_reg/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[0]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[1]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[2]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[3]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[4]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[5]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[6]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[7]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[8]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[9]/CLK
+ (Sync)myFIFO/ReadCnt/count_out_reg[10]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[0]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[1]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[2]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[3]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[4]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[5]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[6]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[7]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[8]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[9]/CLK
+ (Sync)myFIFO/WriteCnt/count_out_reg[10]/CLK
+ (Sync)myTimer/smallCounter/count_out_reg[0]/CLK
+ (Sync)myTimer/smallCounter/count_out_reg[1]/CLK
+ (Sync)myTimer/smallCounter/count_out_reg[2]/CLK
+ (Sync)myTimer/smallCounter/rollover_flag_reg/CLK
+ (Sync)myTimer/smallCounter/count_out_reg[3]/CLK
+ (Sync)myTimer/bigCounter/count_out_reg[0]/CLK
+ (Sync)myTimer/bigCounter/count_out_reg[1]/CLK
+ (Sync)myTimer/bigCounter/count_out_reg[2]/CLK
+ (Sync)myTimer/bigCounter/rollover_flag_reg/CLK
+ (Sync)myTimer/bigCounter/count_out_reg[3]/CLK
+ (Sync)myTimer/mybyte_reg/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[0]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[1]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[2]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[3]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[4]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[5]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[6]/CLK
+ (Sync)ShiftRegister/shift_out/parallel_cur_reg[7]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[0]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[1]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[2]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[3]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[4]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[5]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[6]/CLK
+ (Sync)ShiftRegister/shift_in/parallel_out_reg[7]/CLK
+ (Sync)eDetect/d_reg/CLK
+ (Sync)eDetect/f_reg/CLK

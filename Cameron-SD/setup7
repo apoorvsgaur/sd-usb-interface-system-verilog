@@ -1,0 +1,89 @@
+# Setup file for Lab 7
+# ece337 
+
+# The following checks for the existence of the direcotry structure the students
+# were instructed to create in the prelab.
+
+echo ""
+echo "Checking directory structure for Lab 7"
+if (! -d ~/ece337) then
+  echo " Please setup your course and Lab 7 directory structure first."
+else if (! -d ~/ece337/Lab7) then
+  echo " Please setup your Lab 7 directory structure first using mkdir and dirset."
+else if (! -d ~/ece337/Lab7/source) then
+  echo " Error: Missing 'source' folder, please correct directory structure with 'dirset'"
+else if (! -d ~/ece337/Lab7/scripts) then
+  echo " Error: Missing 'scripts' folder, please correct directory structure with 'dirset'"
+else if (! -d ~/ece337/Lab7/mapped) then
+  echo " Error: Missing 'mapped' folder, please correct directory structure with 'dirset'"
+else if (! -d ~/ece337/Lab7/reports) then
+  echo " Error: Missing 'reports' folder, please correct directory structure with 'dirset'"
+else if (! -d ~/ece337/Lab7/analyzed) then
+  echo " Error: Missing 'analyzed' folder, please correct directory structure with 'dirset'"
+else if (! -d ~/ece337/Lab7/schematic) then
+  echo " Error: Missing 'schematic' folder, please correct directory structure with 'dirset'"
+else if (! -d ~/ece337/Lab7/docs) then
+  echo " Error: Missing 'docs' folder, please correct directory structure with 'dirset'"
+else if (! -f ~/ece337/Lab7/modelsim.ini) then
+  echo " Error: Missing 'modelsim.ini' file, please correct directory structure with 'dirset'"
+else
+	echo " Lab directory structure complete"
+	echo "Performing neccessary setup for Lab 7"
+	
+	echo " Setting up Cadence Layout tool files"
+	# Setup Cadence for layout
+	if ( -f ~/.cdsinit )  then
+		setenv CDSCOUNT `ls -asl ~/.cds* | grep -c ">"`
+	else if ( -f ~/.cdsenv ) then
+		setenv CDSCOUNT `ls -asl ~/.cds* | grep -c ">"`
+	else
+		setenv CDSCOUNT 0
+	endif
+	
+	if ( $CDSCOUNT == 2 ) then
+  #echo "  Cadence Setup Files are correct"
+	else
+		if ( -f ~/.cdsinit ) then
+			mv ~/.cdsinit ~/.cdsinit.orig
+			cp $CLASSDIR/.cdsinit ~/.cdsinit
+		else
+			cp $CLASSDIR/.cdsinit ~/.cdsinit
+		endif
+		if ( -f ~/.cdsenv ) then
+			mv ~/.cdsenv ~/.cdsenv.orig
+			cp $CLASSDIR/.cdsenv ~/.cdsenv
+		else
+			cp $CLASSDIR/.cdsenv ~/.cdsenv
+		endif
+	endif
+	
+	if ( -f ~/cds.lib ) then
+		setenv CDSLIBCOUNT `cat ~/cds.lib | grep -c "ece337cds.lib"`
+	else
+		setenv CDSLIBCOUNT 0
+	endif
+
+	if ( $CDSLIBCOUNT == 1 ) then
+		#echo "  Cadence Library file is correct"
+	else
+		cat $CLASSDIR/cds.lib >> ~/cds.lib
+	endif
+
+	unsetenv CDSLIBCOUNT
+	unsetenv CDSCOUNT
+	
+	#echo " Copying needed layout support files"
+	cp $CLASSDIR/starter_files/Lab7/encounter.* ~/ece337/Project/Cameron-SD/.
+	cp $CLASSDIR/starter_files/Lab7/*.map ~/ece337/Project/Cameron-SD/.
+	cp $CLASSDIR/starter_files/Lab7/*.template ~/ece337/Project/Cameron-SD/.
+	cp $CLASSDIR/starter_files/Lab7/lab7_layout_design.sv ~/ece337/Lab7/source/.
+	cp $CLASSDIR/starter_files/Lab7/makefile ~/ece337/Lab7/.
+	
+	echo "Project setup is complete"
+endif
+
+
+
+
+
+

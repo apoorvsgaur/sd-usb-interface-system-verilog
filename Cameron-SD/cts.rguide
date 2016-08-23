@@ -1,0 +1,164 @@
+routeGuideNet clk__L1_N0
+wire 495.6 250.5 524.4 250.5 H 0.5
+wire 452.4 67.5 452.4 250.5 V 0.5
+wire 435.6 691.5 452.4 691.5 H 0.5
+wire 452.4 691.5 452.4 250.5 V 0.5
+wire 452.4 250.5 495.6 250.5 H 0.5
+endRouteGuideNet
+routeGuideNet clk__L2_N2
+#Trunk_Term begin
+#Trunk SDController/LoadFIFO/rollover_flag_reg CLK 387.6 748.5
+#Trunk SDController/LoadFIFO/count_out_reg\[3\] CLK 493.2 928.5
+#Trunk SDController/LoadFIFO/count_out_reg\[5\] CLK 382.8 928.5
+#Trunk myTimer/bigCounter/rollover_flag_reg CLK 267.6 508.5
+#Trunk myTimer/smallCounter/count_out_reg\[3\] CLK 102 673.5
+#Trunk SDController/LoadFIFO/count_out_reg\[10\] CLK 157.2 568.5
+#Trunk SDController/LoadFIFO/count_out_reg\[14\] CLK 78 733.5
+#Trunk SDController/LoadFIFO/count_out_reg\[12\] CLK 128.4 853.5
+#Trunk SDController/LoadFIFO/count_out_reg\[13\] CLK 99.6 793.5
+#Trunk SDController/LoadFIFO/count_out_reg\[6\] CLK 214.8 928.5
+#Trunk SDController/state_reg\[0\] CLK 786 853.5
+#Trunk_Term end
+wire 442.8 694.5 442.8 733.5 V 0.5
+wire 442.8 694.5 387.6 694.5 H 0.5
+wire 387.6 694.5 303.6 694.5 H 0.5
+wire 387.6 694.5 387.6 748.5 V 0.5
+wire 442.8 733.5 442.8 853.5 V 0.5
+wire 442.8 733.5 546 733.5 H 0.5
+wire 546 733.5 579.6 733.5 H 0.5
+wire 579.6 733.5 579.6 793.5 V 0.5
+wire 442.8 853.5 442.8 928.5 V 0.5
+wire 303.6 694.5 241.2 694.5 H 0.5
+wire 303.6 694.5 303.6 568.5 V 0.5
+wire 303.6 568.5 267.6 568.5 H 0.5
+wire 241.2 694.5 241.2 793.5 V 0.5
+wire 241.2 694.5 130.8 694.5 H 0.5
+wire 579.6 793.5 634.8 793.5 H 0.5
+wire 634.8 793.5 634.8 853.5 V 0.5
+wire 442.8 928.5 382.8 928.5 H 0.5
+wire 442.8 928.5 493.2 928.5 H 0.5
+wire 130.8 694.5 128.4 694.5 H 0.5
+wire 241.2 793.5 241.2 913.5 V 0.5
+wire 634.8 853.5 699.6 853.5 H 0.5
+wire 267.6 568.5 267.6 553.5 V 0.5
+wire 267.6 568.5 214.8 568.5 H 0.5
+wire 241.2 913.5 214.8 913.5 H 0.5
+wire 214.8 913.5 214.8 928.5 V 0.5
+wire 214.8 568.5 157.2 568.5 H 0.5
+wire 267.6 553.5 267.6 508.5 V 0.5
+wire 128.4 694.5 102 694.5 H 0.5
+wire 128.4 694.5 128.4 793.5 V 0.5
+wire 128.4 793.5 99.6 793.5 H 0.5
+wire 128.4 793.5 128.4 853.5 V 0.5
+wire 102 694.5 78 694.5 H 0.5
+wire 102 694.5 102 673.5 V 0.5
+wire 78 694.5 78 733.5 V 0.5
+wire 699.6 853.5 786 853.5 H 0.5
+endRouteGuideNet
+routeGuideNet clk__L2_N1
+#Trunk_Term begin
+#Trunk myFIFO/WriteCnt/count_out_reg\[1\] CLK 78 73.5
+#Trunk myFIFO/WriteCnt/count_out_reg\[6\] CLK 78 193.5
+#Trunk myFIFO/WriteCnt/count_out_reg\[5\] CLK 78 328.5
+#Trunk myTimer/smallCounter/count_out_reg\[0\] CLK 78 448.5
+#Trunk myFIFO/WriteCnt/count_out_reg\[7\] CLK 147.6 268.5
+#Trunk myTimer/bigCounter/count_out_reg\[2\] CLK 147.6 493.5
+#Trunk myFIFO/WriteCnt/count_out_reg\[2\] CLK 214.8 73.5
+#Trunk myTimer/mybyte_reg CLK 315.6 433.5
+#Trunk myFIFO/ReadCnt/count_out_reg\[8\] CLK 385.2 388.5
+#Trunk myFIFO/ReadCnt/count_out_reg\[4\] CLK 409.2 73.5
+#Trunk clk__L2_I1 Y 502.8 247.5
+#Trunk_Term end
+wire 322.8 373.5 322.8 313.5 V 0.5
+wire 322.8 373.5 320.4 373.5 H 0.5
+wire 229.2 373.5 210 373.5 H 0.5
+wire 229.2 373.5 246 373.5 H 0.5
+wire 246 373.5 246 388.5 V 0.5
+wire 315.6 388.5 315.6 433.5 V 0.5
+wire 315.6 388.5 246 388.5 H 0.5
+wire 315.6 388.5 320.4 388.5 H 0.5
+wire 128.4 388.5 128.4 433.5 V 0.5
+wire 128.4 388.5 99.6 388.5 H 0.5
+wire 128.4 388.5 154.8 388.5 H 0.5
+wire 162 73.5 214.8 73.5 H 0.5
+wire 162 73.5 128.4 73.5 H 0.5
+wire 162 73.5 162 148.5 V 0.5
+wire 322.8 247.5 502.8 247.5 H 0.5
+wire 322.8 247.5 322.8 148.5 V 0.5
+wire 322.8 247.5 322.8 268.5 V 0.5
+wire 162 193.5 162 148.5 V 0.5
+wire 162 193.5 78 193.5 H 0.5
+wire 162 193.5 212.4 193.5 H 0.5
+wire 212.4 193.5 212.4 208.5 V 0.5
+wire 78 73.5 128.4 73.5 H 0.5
+wire 78 328.5 99.6 328.5 H 0.5
+wire 99.6 328.5 99.6 388.5 V 0.5
+wire 78 448.5 128.4 448.5 H 0.5
+wire 128.4 433.5 128.4 448.5 V 0.5
+wire 133.2 448.5 147.6 448.5 H 0.5
+wire 147.6 448.5 147.6 493.5 V 0.5
+wire 133.2 448.5 128.4 448.5 H 0.5
+wire 147.6 268.5 212.4 268.5 H 0.5
+wire 154.8 388.5 210 388.5 H 0.5
+wire 210 388.5 210 373.5 V 0.5
+wire 212.4 208.5 212.4 268.5 V 0.5
+wire 229.2 268.5 212.4 268.5 H 0.5
+wire 229.2 268.5 322.8 268.5 H 0.5
+wire 320.4 373.5 320.4 388.5 V 0.5
+wire 322.8 148.5 349.2 148.5 H 0.5
+wire 349.2 148.5 349.2 73.5 V 0.5
+wire 322.8 313.5 322.8 268.5 V 0.5
+wire 349.2 73.5 409.2 73.5 H 0.5
+wire 385.2 388.5 320.4 388.5 H 0.5
+endRouteGuideNet
+routeGuideNet clk__L2_N0
+#Trunk_Term begin
+#Trunk myFIFO/ReadCnt/count_out_reg\[10\] CLK 442.8 328.5
+#Trunk myFIFO/ReadCnt/count_out_reg\[1\] CLK 493.2 208.5
+#Trunk myFIFO/ReadCnt/count_out_reg\[3\] CLK 481.2 73.5
+#Trunk myFIFO/ReadCnt/count_out_reg\[2\] CLK 603.6 88.5
+#Trunk ShiftRegister/shift_out/parallel_cur_reg\[4\] CLK 747.6 133.5
+#Trunk ShiftRegister/shift_out/parallel_cur_reg\[5\] CLK 793.2 73.5
+#Trunk SDController/state_reg\[2\] CLK 810 493.5
+#Trunk ShiftRegister/shift_in/parallel_out_reg\[5\] CLK 925.2 148.5
+#Trunk ShiftRegister/shift_in/parallel_out_reg\[1\] CLK 927.6 313.5
+#Trunk ShiftRegister/shift_in/parallel_out_reg\[7\] CLK 927.6 73.5
+#Trunk ShiftRegister/shift_out/parallel_cur_reg\[1\] CLK 656.4 88.5
+#Trunk_Term end
+wire 531.6 247.5 531.6 208.5 V 0.5
+wire 531.6 247.5 442.8 247.5 H 0.5
+wire 442.8 247.5 442.8 328.5 V 0.5
+wire 531.6 247.5 726 247.5 H 0.5
+wire 726 247.5 860.4 247.5 H 0.5
+wire 726 247.5 726 448.5 V 0.5
+wire 531.6 208.5 531.6 148.5 V 0.5
+wire 531.6 208.5 493.2 208.5 H 0.5
+wire 531.6 148.5 603.6 148.5 H 0.5
+wire 531.6 148.5 481.2 148.5 H 0.5
+wire 481.2 148.5 481.2 73.5 V 0.5
+wire 603.6 148.5 603.6 133.5 V 0.5
+wire 603.6 133.5 603.6 88.5 V 0.5
+wire 603.6 133.5 644.4 133.5 H 0.5
+wire 644.4 133.5 656.4 133.5 H 0.5
+wire 726 448.5 810 448.5 H 0.5
+wire 810 448.5 810 493.5 V 0.5
+wire 860.4 247.5 898.8 247.5 H 0.5
+wire 860.4 247.5 860.4 148.5 V 0.5
+wire 656.4 133.5 726 133.5 H 0.5
+wire 656.4 133.5 656.4 88.5 V 0.5
+wire 726 133.5 726 73.5 V 0.5
+wire 726 133.5 747.6 133.5 H 0.5
+wire 726 73.5 793.2 73.5 H 0.5
+wire 860.4 148.5 860.4 88.5 V 0.5
+wire 898.8 247.5 898.8 268.5 V 0.5
+wire 898.8 247.5 925.2 247.5 H 0.5
+wire 925.2 247.5 925.2 208.5 V 0.5
+wire 898.8 268.5 898.8 313.5 V 0.5
+wire 898.8 313.5 898.8 388.5 V 0.5
+wire 898.8 313.5 927.6 313.5 H 0.5
+wire 925.2 208.5 925.2 148.5 V 0.5
+wire 860.4 88.5 896.4 88.5 H 0.5
+wire 898.8 388.5 898.8 433.5 V 0.5
+wire 896.4 88.5 927.6 88.5 H 0.5
+wire 927.6 88.5 927.6 73.5 V 0.5
+endRouteGuideNet

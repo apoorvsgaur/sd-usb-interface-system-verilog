@@ -1,0 +1,187 @@
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U122/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U95/C | AOI22X1 | 
+     |  I0/receiveTOP/RCU/U95/Y | AOI22X1 | 
+     |  I0/receiveTOP/RCU/U96/A |   INVX1 | 
+     |  I0/receiveTOP/RCU/U96/Y |   INVX1 | 
+     | I0/receiveTOP/RCU/U123/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U123/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U122/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U122/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U122/C' to 'I0/receiveTOP/RCU/U122/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U120/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U93/C | AOI22X1 | 
+     |  I0/receiveTOP/RCU/U93/Y | AOI22X1 | 
+     |  I0/receiveTOP/RCU/U94/A |   INVX1 | 
+     |  I0/receiveTOP/RCU/U94/Y |   INVX1 | 
+     | I0/receiveTOP/RCU/U121/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U121/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U120/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U120/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U120/C' to 'I0/receiveTOP/RCU/U120/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U128/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U101/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U101/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U102/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U102/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U129/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U129/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U128/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U128/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U128/C' to 'I0/receiveTOP/RCU/U128/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U130/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U103/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U103/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U104/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U104/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U131/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U131/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U130/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U130/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U130/C' to 'I0/receiveTOP/RCU/U130/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U126/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U99/A | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U99/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U100/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U100/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U127/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U127/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U126/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U126/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U126/C' to 'I0/receiveTOP/RCU/U126/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U118/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U91/C | AOI22X1 | 
+     |  I0/receiveTOP/RCU/U91/Y | AOI22X1 | 
+     |  I0/receiveTOP/RCU/U92/A |   INVX1 | 
+     |  I0/receiveTOP/RCU/U92/Y |   INVX1 | 
+     | I0/receiveTOP/RCU/U119/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U119/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U118/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U118/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U118/C' to 'I0/receiveTOP/RCU/U118/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U124/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U97/A | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U97/Y | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U98/C | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U98/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U125/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U125/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U124/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U124/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U124/C' to 'I0/receiveTOP/RCU/U124/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U110/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U82/A | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U82/Y | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U83/C | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U83/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U111/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U111/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U110/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U110/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U110/C' to 'I0/receiveTOP/RCU/U110/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U112/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U84/A | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U84/Y | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U85/C | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U85/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U113/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U113/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U112/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U112/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U112/C' to 'I0/receiveTOP/RCU/U112/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U114/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U86/A | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U86/Y | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U87/C | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U87/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U115/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U115/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U114/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U114/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U114/C' to 'I0/receiveTOP/RCU/U114/
+             Y' has been cut  <TA-113>.
+--> WARNING: A timing loop was found in the design. <TA-112>.
+    Info:    Description of timing loop follows: <TA-114>.
+     +------------------------------------+ 
+     |           Pin            |  Cell   | 
+     |--------------------------+---------| 
+     | I0/receiveTOP/RCU/U116/Y | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U88/A | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U88/Y | NAND2X1 | 
+     |  I0/receiveTOP/RCU/U89/C | OAI21X1 | 
+     |  I0/receiveTOP/RCU/U89/Y | OAI21X1 | 
+     | I0/receiveTOP/RCU/U117/A | NAND2X1 | 
+     | I0/receiveTOP/RCU/U117/Y | NAND2X1 | 
+     | I0/receiveTOP/RCU/U116/C | OAI21X1 | 
+     | I0/receiveTOP/RCU/U116/Y | OAI21X1 | 
+     +------------------------------------+ 
+--> WARNING: The arc from 'I0/receiveTOP/RCU/U116/C' to 'I0/receiveTOP/RCU/U116/
+             Y' has been cut  <TA-113>.

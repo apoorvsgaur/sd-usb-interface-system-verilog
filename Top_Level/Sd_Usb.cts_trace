@@ -1,0 +1,285 @@
+
+
+
+
+
+Tracing Clock clk
+
+****** Clock Tree (clk) Structure
+Nr. Subtrees                   : 2
+Nr. Sinks                      : 231
+Nr.          Rising  Sync Pins : 231
+Nr. Inverter Rising  Sync Pins : 0
+Nr.          Falling Sync Pins : 0
+Nr. Inverter Falling Sync Pins : 0
+
+** Leaf Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+DFFSR (CLK)                             231
+-----------------------------------------------
+
+
+
+
+** Gate Component Input Pins
+CELL (PORT)                            Nr.
+-----------------------------------------------
+PADINC (YPAD)                           1
+-----------------------------------------------
+
+
+
+** Subtree Detail
+*DEPTH 0 Input_Pin: (EMPTY) Output_Pin: (clk) Cell: (EMPTY) Net: (clk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 0
+          Nr. of     Rising  Sync Pins  : 0
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 1
+*DEPTH 1 Input_Pin: (U7/YPAD) Output_Pin: (U7/DI) Cell: (PADINC) Net: (nclk) NO-INV
+          Nr. of Exclude Pins           : 0
+          Nr. of Total Sync Pins        : 231
+          Nr. of     Rising  Sync Pins  : 231
+          Nr. of Inv Rising  Sync Pins  : 0
+          Nr. of     Falling Sync Pins  : 0
+          Nr. of Inv Falling Sync Pins  : 0
+          Nr. of Gated Clocks           : 0
+***********************************************************
+
+****** Pre CTS Detail Structure for clock clk
+*DEPTH 0: clk
+ *DEPTH 1: U7(YPAD->DI)
+  (Sync)I0/SD/SDController/byte_transfflip_reg/CLK
+  (Sync)I0/SD/SDController/state_reg[4]/CLK
+  (Sync)I0/SD/SDController/state_reg[0]/CLK
+  (Sync)I0/SD/SDController/state_reg[1]/CLK
+  (Sync)I0/SD/SDController/state_reg[3]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[8]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[6]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[4]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[3]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[2]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[1]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[0]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_flag_reg/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[7]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[5]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[13]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[11]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[9]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[10]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[12]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[14]/CLK
+  (Sync)I0/SD/SDController/LoadFIFO/cur_count_reg[15]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[15]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[14]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[13]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[12]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[11]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[10]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[9]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[8]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[7]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[6]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[5]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[4]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[3]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[2]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[1]/CLK
+  (Sync)I0/SD/SDController/Countstates/cur_count_reg[0]/CLK
+  (Sync)I0/SD/SDController/state_reg[2]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[1]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[9]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[11]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[10]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[8]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[7]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[6]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[5]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[4]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[3]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[2]/CLK
+  (Sync)I0/SD/myFIFO/ReadCnt/cur_count_reg[0]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[0]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[11]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[1]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[2]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[3]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[4]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[5]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[6]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[7]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[8]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[9]/CLK
+  (Sync)I0/SD/myFIFO/WriteCnt/cur_count_reg[10]/CLK
+  (Sync)I0/SD/myTimer/smallCounter/cur_count_reg[0]/CLK
+  (Sync)I0/SD/myTimer/smallCounter/cur_count_reg[2]/CLK
+  (Sync)I0/SD/myTimer/smallCounter/cur_count_reg[3]/CLK
+  (Sync)I0/SD/myTimer/smallCounter/cur_count_reg[1]/CLK
+  (Sync)I0/SD/myTimer/smallCounter/cur_flag_reg/CLK
+  (Sync)I0/SD/myTimer/bigCounter/cur_count_reg[0]/CLK
+  (Sync)I0/SD/myTimer/bigCounter/cur_count_reg[2]/CLK
+  (Sync)I0/SD/myTimer/bigCounter/cur_count_reg[3]/CLK
+  (Sync)I0/SD/myTimer/bigCounter/cur_count_reg[1]/CLK
+  (Sync)I0/SD/myTimer/bigCounter/cur_flag_reg/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[0]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[1]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[2]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[3]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[4]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[5]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[6]/CLK
+  (Sync)I0/SD/ShiftRegister/shift_in/out_tmp_reg[7]/CLK
+  (Sync)I0/SD/eDetect/past_d_plus_reg/CLK
+  (Sync)I0/SD/eDetect/cur_d_edge_reg/CLK
+  (Sync)I0/transmit/TCU/current_state_reg[0]/CLK
+  (Sync)I0/transmit/TCU/current_state_reg[3]/CLK
+  (Sync)I0/transmit/TCU/current_state_reg[2]/CLK
+  (Sync)I0/transmit/TCU/current_state_reg[1]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[5]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[2]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[6]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[1]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[7]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[3]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[4]/CLK
+  (Sync)I0/transmit/TCU/reg_data_reg[0]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/shift_enable_gen/cur_count_reg[0]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/shift_enable_gen/cur_count_reg[1]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/shift_enable_gen/cur_count_reg[2]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/shift_enable_gen/cur_count_reg[3]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/load_enable_gen/cur_count_reg[3]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/load_enable_gen/cur_count_reg[2]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/load_enable_gen/cur_count_reg[1]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/load_enable_gen/cur_count_reg[0]/CLK
+  (Sync)I0/transmit/SHIFT_ENABLE_GEN/load_enable_gen/cur_flag_reg/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[5]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[6]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[4]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[3]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[0]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[2]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[7]/CLK
+  (Sync)I0/transmit/SHIFT_REGISTER/Q_out_reg[1]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/cur_state_reg[1]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/GENERATE_STOP_CLOCK/cur_count_reg[0]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/GENERATE_STOP_CLOCK/cur_count_reg[2]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/GENERATE_STOP_CLOCK/cur_count_reg[3]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/GENERATE_STOP_CLOCK/cur_count_reg[1]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/GENERATE_STOP_CLOCK/cur_flag_reg/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/CLOCKS/cur_count_reg[0]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/CLOCKS/cur_count_reg[2]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/CLOCKS/cur_count_reg[1]/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/CLOCKS/cur_flag_reg/CLK
+  (Sync)I0/transmit/STOP_CLOCK_GEN/CLOCKS/cur_count_reg[3]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[0]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[1]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[2]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[3]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[4]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[5]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[6]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[7]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[8]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[9]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[10]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[11]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[12]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[13]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[14]/CLK
+  (Sync)I0/transmit/CRC_GENERATOR/out_tmp_reg[15]/CLK
+  (Sync)I0/receiveTOP/CNYS1/Q1_reg/CLK
+  (Sync)I0/receiveTOP/CNYS1/Q2_reg/CLK
+  (Sync)I0/receiveTOP/CNYS2/Q1_reg/CLK
+  (Sync)I0/receiveTOP/CNYS2/Q2_reg/CLK
+  (Sync)I0/receiveTOP/DCD/cur_d_reg/CLK
+  (Sync)I0/receiveTOP/DCD/cur_stored_reg/CLK
+  (Sync)I0/receiveTOP/EDT/past_d_plus_reg/CLK
+  (Sync)I0/receiveTOP/EDT/cur_d_edge_reg/CLK
+  (Sync)I0/receiveTOP/TIM/BITS/cur_count_reg[0]/CLK
+  (Sync)I0/receiveTOP/TIM/BITS/cur_count_reg[2]/CLK
+  (Sync)I0/receiveTOP/TIM/BITS/cur_flag_reg/CLK
+  (Sync)I0/receiveTOP/TIM/BITS/cur_count_reg[1]/CLK
+  (Sync)I0/receiveTOP/TIM/BITS/cur_count_reg[3]/CLK
+  (Sync)I0/receiveTOP/TIM/CLKS/cur_count_reg[3]/CLK
+  (Sync)I0/receiveTOP/TIM/CLKS/cur_count_reg[2]/CLK
+  (Sync)I0/receiveTOP/TIM/CLKS/cur_count_reg[1]/CLK
+  (Sync)I0/receiveTOP/TIM/CLKS/cur_count_reg[0]/CLK
+  (Sync)I0/receiveTOP/BST/cur_state_reg[1]/CLK
+  (Sync)I0/receiveTOP/BST/ONES/cur_count_reg[2]/CLK
+  (Sync)I0/receiveTOP/BST/ONES/cur_count_reg[3]/CLK
+  (Sync)I0/receiveTOP/BST/ONES/cur_flag_reg/CLK
+  (Sync)I0/receiveTOP/BST/ONES/cur_count_reg[0]/CLK
+  (Sync)I0/receiveTOP/BST/ONES/cur_count_reg[1]/CLK
+  (Sync)I0/receiveTOP/BST/CLKS/cur_count_reg[2]/CLK
+  (Sync)I0/receiveTOP/BST/CLKS/cur_count_reg[1]/CLK
+  (Sync)I0/receiveTOP/BST/CLKS/cur_flag_reg/CLK
+  (Sync)I0/receiveTOP/BST/CLKS/cur_count_reg[0]/CLK
+  (Sync)I0/receiveTOP/BST/CLKS/cur_count_reg[3]/CLK
+  (Sync)I0/receiveTOP/CRC5/out_tmp_reg[0]/CLK
+  (Sync)I0/receiveTOP/CRC5/out_tmp_reg[1]/CLK
+  (Sync)I0/receiveTOP/CRC5/out_tmp_reg[2]/CLK
+  (Sync)I0/receiveTOP/CRC5/out_tmp_reg[3]/CLK
+  (Sync)I0/receiveTOP/CRC5/out_tmp_reg[4]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[0]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[1]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[2]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[3]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[4]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[5]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[6]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[7]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[8]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[9]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[10]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[11]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[12]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[13]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[14]/CLK
+  (Sync)I0/receiveTOP/CRC16/out_tmp_reg[15]/CLK
+  (Sync)I0/receiveTOP/RCU/cur_state_reg[0]/CLK
+  (Sync)I0/receiveTOP/RCU/cur_state_reg[5]/CLK
+  (Sync)I0/receiveTOP/RCU/cur_state_reg[3]/CLK
+  (Sync)I0/receiveTOP/RCU/cur_state_reg[2]/CLK
+  (Sync)I0/receiveTOP/RCU/cur_state_reg[4]/CLK
+  (Sync)I0/receiveTOP/RCU/cur_state_reg[1]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[7]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[6]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[5]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[4]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[3]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[2]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[1]/CLK
+  (Sync)I0/receiveTOP/SRG/FSS/out_tmp_reg[0]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[0]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[11]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[1]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[2]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[3]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[4]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[5]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[6]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[7]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[8]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[9]/CLK
+  (Sync)I0/receiveTOP/OFIF/ReadCnt/cur_count_reg[10]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[0]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[11]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[1]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[2]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[3]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[4]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[5]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[6]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[7]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[8]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[9]/CLK
+  (Sync)I0/receiveTOP/OFIF/WriteCnt/cur_count_reg[10]/CLK
+  (Sync)I0/MCU/state_reg[0]/CLK
+  (Sync)I0/MCU/state_reg[1]/CLK
+  (Sync)I0/MCU/state_reg[2]/CLK
+  (Sync)I0/MCU/state_reg[4]/CLK
+  (Sync)I0/MCU/state_reg[3]/CLK
